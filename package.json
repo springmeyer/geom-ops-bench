@@ -1,0 +1,11 @@
+{
+  "name"          : "geom-ops-bench",
+  "dependencies"  : {
+      "node-geos": "https://github.com/kashif/node-geos/tarball/master",
+      "shapely":"https://github.com/springmeyer/Shapely.js/tarball/master",
+      "ref":"*"
+  },
+  "scripts": {
+    "test": "./bench.sh"
+  }
+}
